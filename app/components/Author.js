@@ -23,6 +23,7 @@ export default class Author extends React.Component {
 
   render() {
     const { authorProfile, errorMessage } = this.state;
+
     return (
       <ThemeConsumer>
         {({ theme }) => (

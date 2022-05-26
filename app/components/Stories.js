@@ -22,6 +22,7 @@ export default class Stories extends React.Component {
 
   render() {
     const { stories, errorMessage } = this.state;
+
     if (!!errorMessage) {
       return (
         <div>
